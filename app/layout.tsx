@@ -1,11 +1,8 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import Script from 'next/script';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import Header from '@/components/Header';
-
-import EzoicIntegration from '@/components/EzoicIntegration';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -22,34 +19,6 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className} suppressHydrationWarning>
-        {/* Ezoic Privacy Scripts - Must be loaded first */}
-        <Script
-          strategy="beforeInteractive"
-          data-cfasync="false"
-          src="https://cmp.gatekeeperconsent.com/min.js"
-        />
-        <Script
-          strategy="beforeInteractive"
-          data-cfasync="false"
-          src="https://the.gatekeeperconsent.com/cmp.min.js"
-        />
-
-        {/* Ezoic Header Script */}
-        <Script
-          strategy="beforeInteractive"
-          src="//www.ezojs.com/ezoic/sa.min.js"
-        />
-        <Script id="ezoic-init" strategy="beforeInteractive">
-          {`window.ezstandalone = window.ezstandalone || {}; ezstandalone.cmd = ezstandalone.cmd || [];`}
-        </Script>
-
-        {/* Google Ads */}
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4203342865287205"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -97,7 +66,6 @@ export default function RootLayout({
           disableTransitionOnChange
           forcedTheme="dark"
         >
-          <EzoicIntegration />
           <Header />
           {children}
         </ThemeProvider>
