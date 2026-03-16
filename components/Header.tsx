@@ -130,6 +130,52 @@ export default function Header() {
               </Link>
             ))}
 
+            {/* Explore Dropdown */}
+            <div className="relative group/explore">
+              <button
+                className="px-3 py-2 rounded-lg transition-all duration-300 whitespace-nowrap text-sm text-amber-500/70 hover:text-amber-500 hover:bg-amber-500/5 flex items-center gap-1"
+              >
+                Explore
+                <ChevronDown className="h-4 w-4 transition-transform group-hover/explore:rotate-180" />
+              </button>
+
+              <div className="absolute right-0 mt-0 pt-2 w-48 opacity-0 invisible group-hover/explore:opacity-100 group-hover/explore:visible transition-all duration-300">
+                <div className="bg-zinc-900 border border-amber-900/20 rounded-lg shadow-xl overflow-hidden p-1">
+                  {[
+                    { href: '/apps', label: 'Apps' },
+                    { href: '/games', label: 'Games' },
+                    { href: '/software', label: 'Software' },
+                    { href: '/vpn', label: 'VPN' },
+                  ].map((item) => (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      className={cn(
+                        "block px-4 py-2 rounded-md transition-all duration-200 text-sm",
+                        pathname === item.href
+                          ? "bg-amber-500/10 text-amber-500 font-medium"
+                          : "text-amber-500/70 hover:text-amber-500 hover:bg-amber-500/5"
+                      )}
+                    >
+                      {item.label}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            <Link
+              href="/contact-us"
+              className={cn(
+                "px-3 py-2 rounded-lg transition-all duration-300 whitespace-nowrap text-sm",
+                pathname === '/contact-us'
+                  ? "bg-amber-500/10 text-amber-500 font-medium"
+                  : "text-amber-500/70 hover:text-amber-500 hover:bg-amber-500/5"
+              )}
+            >
+              Contact Us
+            </Link>
+
             {/* More Cities Dropdown */}
             <div className="relative">
               <button
@@ -208,6 +254,30 @@ export default function Header() {
             >
               India
             </Link>
+
+            {/* Category Links */}
+            <div className="grid grid-cols-2 gap-2 mx-4 mb-4">
+              {[
+                { href: '/apps', label: 'Apps' },
+                { href: '/games', label: 'Games' },
+                { href: '/software', label: 'Software' },
+                { href: '/vpn', label: 'VPN' },
+              ].map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  onClick={() => setMobileMenuOpen(false)}
+                  className={cn(
+                    "block px-4 py-2.5 rounded-lg transition-all duration-300 text-sm text-center",
+                    pathname === item.href
+                      ? "bg-amber-500/10 text-amber-500 font-medium"
+                      : "text-amber-500/70 hover:text-amber-500 hover:bg-amber-500/5"
+                  )}
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </div>
 
             {/* Cities List */}
             <div className="max-h-96 overflow-y-auto px-4 space-y-1">

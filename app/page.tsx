@@ -1,6 +1,8 @@
 import ProductDetails from '@/components/ProductDetails';
 import Reviews from '@/components/Reviews';
 import TastingNotes from '@/components/TastingNotes';
+import CategoryGrid from '@/components/CategoryGrid';
+import { categories } from '@/lib/data';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -15,6 +17,17 @@ export default function Home() {
       <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 xl:px-8 py-6 sm:py-8 lg:py-12">
         <ProductDetails />
         <TastingNotes />
+
+        {categories.map((category) => (
+          <CategoryGrid
+            key={category.id}
+            categoryId={category.id}
+            title={category.title}
+            posts={category.posts}
+            categoryHref={category.href}
+          />
+        ))}
+
         <Reviews />
       </div>
     </main>
