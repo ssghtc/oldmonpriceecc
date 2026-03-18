@@ -19,7 +19,6 @@ export default function SocialPage() {
             <div className="max-w-7xl mx-auto px-4 py-12">
                 <CategoryGrid
                     title={category.title}
-                    description="Expert reviews and top 5 lists for social media analytics and growth tools."
                     posts={category.posts}
                     categoryId={category.id}
                 />
