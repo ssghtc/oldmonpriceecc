@@ -146,6 +146,7 @@ export default function Header() {
                     { href: '/games', label: 'Games' },
                     { href: '/software', label: 'Software' },
                     { href: '/vpn', label: 'VPN' },
+                    { href: '/social', label: 'Social' },
                   ].map((item) => (
                     <Link
                       key={item.href}
@@ -256,21 +257,23 @@ export default function Header() {
             </Link>
 
             {/* Category Links */}
-            <div className="grid grid-cols-2 gap-2 mx-4 mb-4">
+            <div className="grid grid-cols-2 lg:grid-cols-3 gap-2 mx-4 mb-4">
               {[
                 { href: '/apps', label: 'Apps' },
                 { href: '/games', label: 'Games' },
                 { href: '/software', label: 'Software' },
                 { href: '/vpn', label: 'VPN' },
+                { href: '/social', label: 'Social' },
+                { href: '/contact-us', label: 'Contact' },
               ].map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
                   onClick={() => setMobileMenuOpen(false)}
                   className={cn(
-                    "block px-4 py-2.5 rounded-lg transition-all duration-300 text-sm text-center",
+                    "block px-4 py-2.5 rounded-lg transition-all duration-300 text-sm text-center border border-amber-900/10",
                     pathname === item.href
-                      ? "bg-amber-500/10 text-amber-500 font-medium"
+                      ? "bg-amber-500/10 text-amber-500 font-medium border-amber-500/20"
                       : "text-amber-500/70 hover:text-amber-500 hover:bg-amber-500/5"
                   )}
                 >

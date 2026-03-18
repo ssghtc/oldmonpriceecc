@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main Pages -->
+  <url>
+    <loc>https://oldmonkprice.in/</loc>
+    <lastmod>2025-03-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://oldmonkprice.in/contact-us</loc>
+    <lastmod>2025-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://oldmonkprice.in/privacy-policy</loc>
+    <lastmod>2025-03-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Categories -->
+  <url>
+    <loc>https://oldmonkprice.in/apps</loc>
+    <lastmod>2025-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://oldmonkprice.in/games</loc>
+    <lastmod>2025-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://oldmonkprice.in/software</loc>
+    <lastmod>2025-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://oldmonkprice.in/vpn</loc>
+    <lastmod>2025-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://oldmonkprice.in/social</loc>
+    <lastmod>2025-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Apps Posts -->
+  <url><loc>https://oldmonkprice.in/apps/notebook-apps</loc><lastmod>2025-03-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://oldmonkprice.in/apps/productivity-apps</loc><lastmod>2025-03-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://oldmonkprice.in/apps/photo-editors</loc><lastmod>2025-03-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://oldmonkprice.in/apps/video-editors</loc><lastmod>2025-03-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://oldmonkprice.in/apps/music-players</loc><lastmod>2025-03-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Games Posts -->
+  <url><loc>https://oldmonkprice.in/games/action-games</loc><lastmod>2025-03-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://oldmonkprice.in/games/strategy-games</loc><lastmod>2025-03-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://oldmonkprice.in/games/rpg-games</loc><lastmod>2025-03-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://oldmonkprice.in/games/sports-games</loc><lastmod>2025-03-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://oldmonkprice.in/games/puzzle-games</loc><lastmod>2025-03-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Software Posts -->
+  <url><loc>https://oldmonkprice.in/software/vpn-software</loc><lastmod>2025-03-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://oldmonkprice.in/software/antivirus-software</loc><lastmod>2025-03-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://oldmonkprice.in/software/browsers</loc><lastmod>2025-03-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://oldmonkprice.in/software/office-suites</loc><lastmod>2025-03-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://oldmonkprice.in/software/utility-softs</loc><lastmod>2025-03-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- VPN Posts -->
+  <url><loc>https://oldmonkprice.in/vpn/free-vpns</loc><lastmod>2025-03-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://oldmonkprice.in/vpn/vpns-streaming</loc><lastmod>2025-03-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://oldmonkprice.in/vpn/vpns-gaming</loc><lastmod>2025-03-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://oldmonkprice.in/vpn/vpns-privacy</loc><lastmod>2025-03-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://oldmonkprice.in/vpn/vpns-india</loc><lastmod>2025-03-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Social Posts -->
+  <url><loc>https://oldmonkprice.in/social/instagram-analytics</loc><lastmod>2025-03-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://oldmonkprice.in/social/tiktok-analytics</loc><lastmod>2025-03-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://oldmonkprice.in/social/social-listening-tools</loc><lastmod>2025-03-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://oldmonkprice.in/social/twitter-tools</loc><lastmod>2025-03-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://oldmonkprice.in/social/scheduling-platforms</loc><lastmod>2025-03-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+</urlset>
